@@ -1,0 +1,28 @@
+GET http://localhost:5000/videos
+
+###
+GET http://localhost:5000/videos/5ff0945b8fb1182238b885f0
+
+### Create a video
+POST http://localhost:5000/videos
+Content-Type: application/json
+
+{
+    "url": "https://www.youtube.com/watch?v=aKd2NG3KQ2k&ab_channel=PitbullVEVO",
+    "title": "kesha video song",
+    "description": "this is a kesha video"
+}
+
+###
+DELETE  http://localhost:5000/videos/5ff0945b8fb1182238b885f0
+
+###
+PUT  http://localhost:5000/videos/5ff0967040f7b326c0cf7d78
+Content-Type: application/json
+
+{
+    "url": "https://www.youtube.com/watch?v=aKd2NG3KQ2k&ab_channel=PitbullVEVO",
+    "title": "kesha video song xd lolazo xd",
+    "description": "this is a kesha video"
+}
+
